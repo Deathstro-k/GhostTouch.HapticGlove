@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{59E38D48-9988-469F-B052-B276CDF86A54}"
+EndProject
+Project("{11A8DD76-328B-46DF-9F39-F559912D0360}") = "Bootloader", "src\Bootloader\Bootloader.nfproj", "{1FF24ADF-761F-49C7-934F-C8988704D9EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".sln", ".sln", "{5A2028CF-F715-4ADF-9789-3B517DB2761A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nanoCLR", "nanoCLR", "{8E4E5016-BFCB-47DE-909B-4D9F9D8A802E}"
+	ProjectSection(SolutionItems) = preProject
+		nanoCLR\nanoCLR(ESP32_dev3_WIFI_OFF).bin = nanoCLR\nanoCLR(ESP32_dev3_WIFI_OFF).bin
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FF24ADF-761F-49C7-934F-C8988704D9EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FF24ADF-761F-49C7-934F-C8988704D9EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FF24ADF-761F-49C7-934F-C8988704D9EF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1FF24ADF-761F-49C7-934F-C8988704D9EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FF24ADF-761F-49C7-934F-C8988704D9EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FF24ADF-761F-49C7-934F-C8988704D9EF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FF24ADF-761F-49C7-934F-C8988704D9EF} = {59E38D48-9988-469F-B052-B276CDF86A54}
+	EndGlobalSection
+EndGlobal

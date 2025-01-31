@@ -1,0 +1,8 @@
+<Project>
+
+    <PropertyGroup>
+        <CommonPrefix>GhostTouch.HapticGlove</CommonPrefix>
+        <RootNamespace>$(CommonPrefix).$(MSBuildProjectName)</RootNamespace>
+    </PropertyGroup>
+	
+</Project>
